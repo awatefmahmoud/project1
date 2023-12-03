@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: oswald;
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: OpenSans ;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+/* start nav */
+nav{
+    background-color: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 15px;
+}
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+nav a:last-child{
+    float: right;
+}
+/* start nav */
+/* start textbox */
+#textbox{
+    text-align: center;
+    padding: 50px 0px;
+    font-family: oswald;
+    
+}
+#textbox h1{
+    font-size: 3rem;
+
+}
+#textbox p{
+    font-size: 1.1rem;
+
+}
+#textbox p span{
+    background-color: black;
+    color: white;
+    padding: 0px 9px;
+
+}
+/* end textbox */
+/* start header */
+header{
+    position: relative;
+}
+header #aboveimg{
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    color: white;
+    font-family: oswald ;
+
+}
+header #aboveimg h2{
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 3px;
+
+    
+}
+header #aboveimg h1{
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 5px;
+
+}
+header #aboveimg button{
+    border: none;
+    padding: 12px 22px;
+    font-size: 1.2rem;
+    background-color: rgba(138, 138, 138, 0.9);
+
+}
+header #aboveimg button:hover{
+    background-color: rgb(181, 181, 181);
+
+}
+/* end header */
+
+/* start main */
+main{
+    background-color: rgb(241,241,241);
+
+
+}
+/* end main */
+/* start leftside */
+main #leftside{
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding: 20px ;
+
+}
+main #leftside article{
+  
+    background-color: white;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+}
+main #leftside article .articaltitle{
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+main #leftside article .articaldesc{
+    text-align: center;
+    font-family: oswald;
+    padding-bottom:25px;
+}
+main #leftside article .articaldesc span{
+    color: #707070;
+}
+main #leftside article .articlecontent{
+    font-family: OpenSans;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 15px;
+}
+main #leftside article #articlecontent p{
+    padding: 20px 0px;
+}
+main #leftside article .articalbutton{
+    padding-bottom: 10px;
+}
+main #leftside article .articalbutton .leftb{
+    float: left;
+    background-color: white;
+    padding: 8px 13px;
+    border: 1px solid gray;
+    font-weight: bold;
+
+}
+main #leftside article .articalbutton .leftb:hover{
+    background-color: silver;
+    border-color: silver;
+}
+main #leftside article .articalbutton .rightb{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 8px 13px;
+    border: none;
+    font-weight: bold;
+    
+}
+main #leftside article .articalbutton .rightb:hover{
+    background-color: silver;
+    color: black;
+}
+main #leftside article .articalbutton .rightb span{
+    background-color: white;
+    color: black;
+    padding: 0px 7px;
+}
+
+.hr{
+    border: 1px solid rgb(161, 161, 161);
+}
+main #leftside article .articalfooter{
+    padding: 20px 0px;
+}
+main #leftside article .articalfooter .lefts{
+    float: left;
+    width: 15%;
+    padding: 10px;
+
+}
+main #leftside article .articalfooter .rights{
+    float: right;
+    width: 85%;
+    padding: 10px;  
+}
+main #leftside article .articalfooter .rights p{
+    padding-bottom: 20px;
+    font-family: oswald;
+}
+main #leftside article .articalfooter .rights p span{
+    color: gray;
+}
+/* end leftside */
+
+/* start rightside */
+main #rightside{
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+   /* name */
+main #rightside .card{
+    background-color: black;
+    
+}
+main #rightside .card .container h4{
+    font-family: oswald;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    padding: 10px;
+}
+main #rightside .card .container p{
+    font-family: OpenSans;
+    font-size: 15px;
+    line-height: 23px;
+    color: white;
+    padding: 10px;
+}
+    /* Popular Posts*/
+main #rightside .PopularPosts h4{
+    width: 100%;
+    padding: 23px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+    font-family: oswald;
+    font-size: 20px;
+    line-height: 30px;
+}  
+main #rightside .PopularPosts .content{
+    background-color: white;
+    
+} 
+main #rightside .PopularPosts #posts{
+
+}
+main #rightside .PopularPosts #posts ul{
+    padding: 0px;
+    list-style-type: none;
+}
+main #rightside .PopularPosts #posts ul li{
+    padding: 10px;
+    border-top: 1px solid silver;
+
+}
+main #rightside .PopularPosts #posts ul li .leftd{
+    float: left;
+    width: 15%;
+
+
+}
+main #rightside .PopularPosts #posts ul li .rightd{
+    float: right;
+    width: 85%;
+
+}
+main #rightside .PopularPosts #posts ul li .rightd p{
+    padding: 5px 12px;
+}
+main #rightside .PopularPosts #posts ul li:hover{
+    background-color: silver;
+}
+/*Advertise*/
+main #rightside .PopularPosts #Advertise{
+    padding: 20px;
+}
+main #rightside .PopularPosts #Advertise section{
+    background-color: rgb(241,241,241);
+    text-align: center;
+    padding: 100px 0px;
+}
+/* Tags */
+main #rightside .PopularPosts #Tags{
+    padding: 10px 20px 30px;
+}
+main #rightside .PopularPosts #Tags span{
+    display: inline-block;
+    padding: 0px 7px;
+    background-color: silver;
+    margin-top: 15px;
+    font-family: opensans;
+    font-size: 0.9rem;
+}
+main #rightside .PopularPosts #Tags span:first-child{
+    color: white;
+    background-color: black;
+   
+}
+/* inspiration */
+main #rightside .PopularPosts #inspiration div{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+main #rightside .PopularPosts #inspiration div img{
+    width: 100%;
+}
+/* Follow Me */
+main #rightside .PopularPosts #follow{
+    padding: 20px;
+
+}
+main #rightside .PopularPosts #follow a{
+    display: inline-block;
+    color: black;
+    font-size: 1.3rem;
+    padding: 3px;
+}
+main #rightside .PopularPosts #follow a:hover{
+    color: gray;
+}
+/* Subscribe */
+main #rightside .PopularPosts #subscribe{
+    padding: 20px;
+
+}
+main #rightside .PopularPosts #subscribe p{
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 15px;
+
+}
+main #rightside .PopularPosts #subscribe input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+
+}
+main #rightside .PopularPosts #subscribe button{
+    width: 100%;
+    background-color: rgb(244,67,54);
+    color: white;
+    padding: 10px;
+    border: none;
+
+}
+main #rightside .PopularPosts #subscribe button:hover{
+    background-color: silver;
+    color: black;
+}
+
+
+/* end rightside */
+.clear{
+    clear: both;
+}
+
+/* start footer */
+footer{
+    background-color: #616161;
+    padding: 50px;
+}
+footer > a{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+footer p{
+    padding-top: 25px;
+    font-size: 1.1rem;
+    color: white;
+}
+footer p a{
+    color: white;
+}
+
+/* end footer */
+/* media query */
+@media screen and ( max-width: 880px) {
+    header #aboveimg{
+        top: 15%;
+    }
+}
+@media screen and ( max-width: 600px){
+    header #aboveimg h2{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    header #aboveimg h1{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+    header #aboveimg button{
+        font-size: 1.1rem;
+    }
+    main #rightside, main #leftside{
+        float: none;
+        width: 100%;
+    }
+
+
+}
